@@ -1,0 +1,111 @@
+#large-box {
+	height: 300px;
+	width:  500px;
+	
+
+	/* border: 1px dashed black;  */
+	position:  relative; 
+
+}
+
+#car-body {
+	height: 50%;
+	display: block;
+	background-color:  red;
+	
+}
+
+#back-air-space {
+	position:  absolute;
+	height: 50px;
+	width:  50px;
+	top: 0;
+	left: 0;
+	background-color:  white;
+}
+
+#front-air-space {
+	position:  absolute;
+	height: 50px;
+	width:  50px;
+	top: 0;
+	right: 0;
+	background-color:  white;
+}
+
+#window1 {
+	position:  absolute;
+	height:  60px;
+	width:  60px;
+	top: 15px;
+	left: 90px;
+	
+}
+
+#window2 {
+	position:  absolute;
+	height:  60px;
+	width:  60px;
+	top: 15px;
+	right: 90px;
+	
+}
+
+table {
+	height: 100%;
+	width:  100%;
+}
+td{
+	border:  1px solid black;
+	background-color:  white;
+	height: 25%;
+	width: 25%;
+}
+
+#wheel1 {
+	position:  absolute;
+	border-radius:  50%;
+	background-color:  black;
+	height: 90px;
+	width:  90px;
+	top: 120px;
+	left: 30px;
+
+}
+
+
+#wheel2 {
+	position:  absolute;
+	border-radius:  50%;
+	background-color:  black;
+	height: 90px;
+	width:  90px;
+	top: 120px;
+	right: 30px;
+
+}
+
+
+#rim1 {
+	position:  absolute;
+	border-radius:  50%;
+	background-color:  grey;
+	height: 70px;
+	width:  70px;
+	top: 130px;
+	left: 40px;
+
+}
+
+
+#rim2 {
+	position:  absolute;
+	border-radius:  50%;
+	background-color:  grey;
+	height: 70px;
+	width:  70px;
+	top: 130px;
+	right: 40px;
+
+}
+
